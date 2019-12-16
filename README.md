@@ -2,7 +2,7 @@
 
 This is a Doom themed variant of the famous arcade game "PAC-MAN", opensource and with high customization capacities.
 
-Works with GNU GCC and Microsoft VC++.
+Works with GNU GCC and Microsoft VC++, Clang is pendant of revision.
 
 This repo provides the essential files in order to run DOOM-MAN on any platform.
 MenuState and GameState have music integration although it is kinda poor, I'd like to implement a sound manager. 
