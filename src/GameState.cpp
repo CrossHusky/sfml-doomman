@@ -14,7 +14,7 @@ namespace basegame{
 		GameState::GameState():currentMap(0),mScore(0),mPack(0x0)
 		{
 			pacframe=0;
-			mAtlas.loadFromFile("testpac.tga");
+			mAtlas.loadFromFile("textures.tga");
 			//mAtlas.setSmooth(true);
 			for(int i=0;i<=4;++i)
 			{

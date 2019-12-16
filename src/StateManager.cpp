@@ -8,7 +8,7 @@ namespace basegame{
 		{
 			mWindow.create(sf::VideoMode(448,576),"DOOM-MAN",sf::Style::Close|sf::Style::Titlebar);
 			mWindow.setFramerateLimit(60);//60 fps max
-			mFont.loadFromFile("DejaVuSans.ttf");
+			mFont.loadFromFile("font.ttf");
 			mPack.Font=&mFont;
 			mPack.Manager=this;
 			mPack.Window=&mWindow;

@@ -15,7 +15,7 @@ namespace basegame{
 		ScoreState::ScoreState(int score):mWritingTo(-1),mScore(score)
 		{
 			mLines.resize(10);
-			std::ifstream file("High.txt");
+			std::ifstream file("score.txt");
 			int tmpscores[10];
 			for(int i=0;i<10;++i)
 			{
@@ -47,7 +47,7 @@ namespace basegame{
 		}
 		ScoreState::~ScoreState()
 		{
-			std::ofstream file("High.txt");
+			std::ofstream file("score.txt");
 			for(int i=0;i<10;++i)
 			{
 				file<<mLines[i].getString().operator std::string()<<std::endl;
