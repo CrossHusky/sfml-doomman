@@ -25,7 +25,7 @@ namespace basegame{
 				Booster=2,
 				Wall=3,
 				Tunnel=7,
-				Empty=8,
+				Empty=8, // No funciona, error al cargar el mapa
 				GhostSpawn=9
 			};
 			enum ScareStatus{Brave,Scared,Blinking,Dead};
